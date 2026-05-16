@@ -25,7 +25,7 @@ jobs:
           arduino-cli compile \
             --fqbn esp32:esp32:esp32c6 \
             --output-dir build \
-            rc-dashboard-esp32c6-v2
+            .
 
       - name: Upload BIN
         uses: actions/upload-artifact@v4
